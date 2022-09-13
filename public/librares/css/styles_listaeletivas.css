@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 141, 235);
+    font-family: 'Syne Tactile', cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+}
+
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Syne Tactile', cursive;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa {
+    width: 300px;
+    height: 35px;
+    font-family: 'Syne Tactile', cursive;
+    border: none;
+}
+
+nav button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+
+nav button:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: rgb(2, 2, 172);
+    margin-top: 90px;
+    width: 600px;
+}
+
+.corpo {
+    margin: 5px; 
+    height: 80px;
+    background-color: rgb(160, 255, 255);  
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+    transition: height 0.2s ease-in-out;
+}
+
+.corpo:hover {
+    height: 90px;
+    background-color: rgb(0, 156, 156);
+}
+
+.visual {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.textual {
+    margin: 5px;
+    background-color: beige;
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.textual h2 {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.info div {
+    display: flex;
+    flex-direction: row;
+}
+
+.info h3 {
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.info p {
+    margin-left: 5px;
+}
