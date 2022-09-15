@@ -17,7 +17,7 @@
             <div class="corpo">
                 <h2>Bem-Vindo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, voluptate?</p>
-                <a href="lista_eletivas">
+                <a href="/main_page/lista_eletivas">
                     <input type="button" value="Escolher Eletiva" class="btn">
                 </a>
             </div>

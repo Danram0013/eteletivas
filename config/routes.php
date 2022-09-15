@@ -7,6 +7,7 @@ use My_Web_Struct\controller\LoginController;
 use My_Web_Struct\controller\CadastroEletivasController;
 use My_Web_Struct\controller\lista_eletivasController;
 
+
 return [
     "/" => MainPageController::class,
     "/main_page" => MainPageController::class,
@@ -21,5 +22,6 @@ return [
     "/usuario/remover" => UsuarioController::class,
     "/CadastrarEletiva" => CadastroEletivasController::class,
     "/CadastroEletiva/cadastro" => CadastroEletivasController::class,
-    "/lista_eletivas" => lista_eletivasController::class,
+    "/main_page/lista_eletivas" => lista_eletivasController::class,
+    "/main_page/lista_eletivas/eletiva" => MainPagecontroller::class,
 ];

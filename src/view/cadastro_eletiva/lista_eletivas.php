@@ -19,7 +19,7 @@
     </nav>   
     <main>
         <div class="container">
-            <a href="eletiva.html">
+            <a href="/main_page/lista_eletivas/eletiva">
                 <div class="corpo">
                     <div>
                         <img src="images/exatas.jpg" alt="logo das eletivas de exatas" class="visual">

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles_bemvindo.css">
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="librares/css/styles_bemvindo.css">
+    <link rel="stylesheet" href="librares/css/reset.css">
     <title>Bem-Vindo</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
                     <input type="button" value="Cadastrar Eletiva" class="btn">
                 </a>
             </div>
-            <img src="../../imagens/professor.jpg" alt="professora" class="imagem">
+            <img src="images/professor.jpg" alt="professora" class="imagem">
         </div>
     </main>
 </body>

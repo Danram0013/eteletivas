@@ -44,7 +44,7 @@ class LoginController extends Controller implements RequestHandlerInterface
 
         if (($loginUsuario == "Zezinho" || $loginUsuario == "maria" || $loginUsuario == "Professor")  && $senhaUsuario == "1234") {
             $_SESSION["usuario"] = $loginUsuario;
-            $_SESSION["credential"] = "adm";//nivel1, nivel2, adm
+            $_SESSION["credential"] = "nivel1";//nivel1, nivel2, adm
             return new Response(302, ["Location" => "/main_page"],);
         } else {
             return new Response(302, ["Location" => "/login"],);
